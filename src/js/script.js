@@ -46,10 +46,28 @@ console.log(parseFloat(numstring))
 
 //Int => String
 
-let numint ="12.584";
+let numInt ="12.584";
 console.log(numInt.toString())
 
 //String => Int
 
-let numstring1 ="120";
-console.log(parseInt(numstring1))
+let numString1 ="120";
+console.log(parseInt(numString1))
+
+//Metodos
+
+//Metodo Length - Verifica o tamanho da string
+
+let frase ="O mundo da tecnologia";
+console.log(frase.length)
+
+//Metodo indeof - Retorna um trecho do seu código
+
+let texto = "Progamação Sustentável";
+console.log(texto.indexOf("ão"))
+
+//Metodo slice - Retorna parte de um texto passando o início e o final
+let info="Programação de ponta";
+console.log(info.slice(15,20))
+
+//Operadores aritiméticos
