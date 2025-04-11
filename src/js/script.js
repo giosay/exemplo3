@@ -109,56 +109,79 @@
 
 //if/else
 
-let nome1 = "fiap";
-if(nome1 == "fiap"){
-    console.log("Nome correto")
-}
-else{
-    console.log("Nome Errado")
-}
+// let nome1 = "fiap";
+// if(nome1 == "fiap"){
+//     console.log("Nome correto")
+// }
+// else{
+//     console.log("Nome Errado")
+// }
 
-//IF encadeado ou Aninhado
+// //IF encadeado ou Aninhado
 
-let idade = 13;
-if(idade <= 14){
-    console.log("Não pode entrar, é menor")
-}
-else if(idade >14 && idade <= 18){
-    console.log("podeentrar e curtir")
-}
-else if(idade > 18 && idade <=50){
-    console.log("Perigo, seus pais estão na balada")
-}
-else{
-    console.log("Você deve ficar no sofá assistino Netflix")
-}
+// let idade = 13;
+// if(idade <= 14){
+//     console.log("Não pode entrar, é menor")
+// }
+// else if(idade >14 && idade <= 18){
+//     console.log("podeentrar e curtir")
+// }
+// else if(idade > 18 && idade <=50){
+//     console.log("Perigo, seus pais estão na balada")
+// }
+// else{
+//     console.log("Você deve ficar no sofá assistino Netflix")
+// }
 
-//switch case
+// //switch case
 
-let time = "Corinthians";
-switch(time){
-    case "Corinthians":
-        console.log("Melhor time!")
-        break;
-    case "São Paulo":
-        console.log("É tão ruim que não consegue ganhar em casa, bambi???")
-        break;
-    case "Palmeiras":
-        console.log("51 é pinga!")
-        break;
-    default:
-        console.log("Nenhuma das opções válidas")
-    }
+// let time = "Corinthians";
+// switch(time){
+//     case "Corinthians":
+//         console.log("Melhor time!")
+//         break;
+//     case "São Paulo":
+//         console.log("É tão ruim que não consegue ganhar em casa, bambi???")
+//         break;
+//     case "Palmeiras":
+//         console.log("51 é pinga!")
+//         break;
+//     default:
+//         console.log("Nenhuma das opções válidas")
+//     }
 
-//Ternario
+// //Ternario
 
-let valor = 100;
-let resultado = valor == 100 ? "Valor Certo": "Valor Errado";
-console.log(resultado);
+// let valor = 100;
+// let resultado = valor == 100 ? "Valor Certo": "Valor Errado";
+// console.log(resultado);
 
-//Exercício
+// //Exercício
 
-let media = 6;
-let resultado1 = media >= 6 ? "Passou de ano": "Não passou de ano, burro";
-console.log(resultado1);
+// let media = 6;
+// let resultado1 = media >= 6 ? "Passou de ano": "Não passou de ano, burro";
+// console.log(resultado1);
 
+// //Estrutura de repetição
+
+// for(let i = 0; i<10; i++){
+//     console.log("o valor de i é", i)
+// }
+
+// let f = 0;
+// while(f < 10){
+//     console.log("o valor de f é", f)
+//     f++;
+// }
+
+// // do while
+
+// let w = 0;
+// do{
+//     console.log("do while", w)
+//     w++
+// }while(w <= 20)
+
+//Jogo de adivinhação
+
+let palpite;
